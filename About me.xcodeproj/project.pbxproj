@@ -54,14 +54,31 @@
 		B1BACF6A1DA2A8CA00188D93 /* About me */ = {
 			isa = PBXGroup;
 			children = (
-				B1BACF6B1DA2A8CA00188D93 /* AppDelegate.swift */,
-				B1BACF6D1DA2A8CA00188D93 /* ViewController.swift */,
-				B1BACF6F1DA2A8CA00188D93 /* Main.storyboard */,
-				B1BACF721DA2A8CA00188D93 /* Assets.xcassets */,
-				B1BACF741DA2A8CA00188D93 /* LaunchScreen.storyboard */,
 				B1BACF771DA2A8CA00188D93 /* Info.plist */,
+				B1BACF721DA2A8CA00188D93 /* Assets.xcassets */,
+				B1BACF7D1DA2A8DD00188D93 /* Controller */,
+				B1BACF7E1DA2A90100188D93 /* View */,
 			);
 			path = "About me";
+			sourceTree = "<group>";
+		};
+		B1BACF7D1DA2A8DD00188D93 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1BACF6B1DA2A8CA00188D93 /* AppDelegate.swift */,
+				B1BACF6D1DA2A8CA00188D93 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		B1BACF7E1DA2A90100188D93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1BACF741DA2A8CA00188D93 /* LaunchScreen.storyboard */,
+				B1BACF6F1DA2A8CA00188D93 /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
