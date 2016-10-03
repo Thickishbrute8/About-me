@@ -21,5 +21,11 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func switchScreenToMyHobbies(sender: UIButton)
+    {
+      
+        
+        performSegueWithIdentifier(" toHobbiesFromMain", sender:sender)
+    }
 }
 
