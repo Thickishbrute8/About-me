@@ -74,10 +74,46 @@
             </objects>
             <point key="canvasLocation" x="-1340" y="276"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Aav-nK-lqh">
+            <objects>
+                <viewController id="rJo-y6-YBk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vxM-YZ-0NB"/>
+                        <viewControllerLayoutGuide type="bottom" id="NQ9-JG-Qhc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dW7-qv-2Js">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vBC-Y1-qBn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-707" y="224"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Gft-xj-aAx">
+            <objects>
+                <viewController id="Ty1-SF-GMm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Qgb-As-LoD"/>
+                        <viewControllerLayoutGuide type="bottom" id="EMW-af-gVS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0Oj-p0-pbf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kYQ-Mf-mek" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-70" y="224"/>
+        </scene>
         <!--myHobbies-->
         <scene sceneID="lJk-9G-fw4">
             <objects>
-                <viewController title="myHobbies" id="dSS-Bq-eEp" sceneMemberID="viewController">
+                <viewController title="myHobbies" id="dSS-Bq-eEp" customClass="HobbiesController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mJu-cp-P3t"/>
                         <viewControllerLayoutGuide type="bottom" id="8FQ-qQ-lu1"/>
@@ -90,7 +126,7 @@
                                 <rect key="frame" x="20" y="28" width="40" height="19"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="fromHoobiesToMain" id="W7I-76-JnQ"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Y2b-cc-7Ka"/>
                                 </connections>
                             </button>
                         </subviews>
